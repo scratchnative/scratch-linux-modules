@@ -1,10 +1,10 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Bharath Reddy");
-MODULE_DESCRIPTION("A simple hello world module");
-MODULE_VERSION("0.01");
+MODULE_LICENSE("MIT");
+MODULE_AUTHOR("Abbix");
+MODULE_DESCRIPTION("A simple hello world module in Scratch");
+MODULE_VERSION("0.0.1");
 
 extern void scratch_main(void);
 
